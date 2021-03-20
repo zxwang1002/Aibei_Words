@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@drawable/bg_main">
+
+    <SurfaceView
+        android:id="@+id/sfv_show"
+        android:layout_width="match_parent"
+        android:layout_height="550dp" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始"
+        android:background="@drawable/icon_button"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/sfv_show"
+        android:layout_marginLeft="300dp"
+        android:textSize="23sp"/>
+
+    <Button
+        android:id="@+id/btn_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="暂停 "
+        android:background="@drawable/icon_button"
+        android:layout_below="@id/sfv_show"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="23sp"/>
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="终止"
+        android:background="@drawable/icon_button"
+        android:layout_below="@id/sfv_show"
+        android:layout_marginLeft="630dp"
+        android:layout_marginTop="20dp"
+        android:textSize="23sp"/>
+
+</RelativeLayout>

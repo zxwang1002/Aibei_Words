@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    tools:context="com.example.dell.myapplication.FirstActivity">
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择学习类型："
+        android:gravity="center"
+        android:textSize="35sp"
+        android:layout_marginTop="170dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_1"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/icon_button"
+        android:text="  英文选图  "
+        android:textSize="25sp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_1"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/icon_button"
+        android:text="  英文选义  "
+        android:textSize="25sp"
+        android:textColor="#000000" />
+
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_2"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/icon_button"
+        android:text="  中文选词  "
+        android:textSize="25sp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_1"
+        android:layout_marginLeft="600dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/icon_button"
+        android:text="  佳文赏析  "
+        android:textSize="25sp"
+        android:textColor="#000000" />
+
+
+
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_4"
+        android:layout_marginLeft="600dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/icon_button"
+        android:text="  每日小测  "
+        android:textSize="25sp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_5"
+        android:layout_marginLeft="600dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/icon_button"
+        android:text="  休闲一刻  "
+        android:textSize="25sp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="74dp"
+        android:background="@drawable/icon_button"
+        android:text="  返回主页  "
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  点击播放使用说明  "
+        android:textSize="30sp"
+        android:background="@drawable/icon_button"/>
+
+
+
+
+</RelativeLayout>

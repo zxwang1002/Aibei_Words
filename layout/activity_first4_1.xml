@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/bg_main">
+
+    <TextView
+        android:id="@+id/tv_listen_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="听力练习"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textSize="40sp"
+        android:layout_marginTop="150dp" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/tv_listen_title"
+        android:background="@drawable/icon_button"
+        android:text="  播放听力  "
+        android:textSize="32sp"
+        android:textColor="#000"
+        android:layout_marginLeft="180dp"
+        />
+
+    <Button
+        android:id="@+id/btn_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  暂停播放  "
+        android:textColor="#000"
+        android:layout_marginTop="35dp"
+        android:textSize="32sp"
+        android:background="@drawable/icon_button"
+        android:layout_marginLeft="400dp"
+        android:layout_below="@id/tv_listen_title"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  停止播放  "
+        android:textSize="32sp"
+        android:textColor="#000"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/icon_button"
+        android:layout_below="@id/tv_listen_title"
+        android:layout_marginLeft="640dp"/>
+
+
+</RelativeLayout>
